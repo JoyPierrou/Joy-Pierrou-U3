@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    background-color: #f4f4f4;
+    background-color: #F4EFDD;
     font-family: "Inter", "Roboto Mono", "SF Mono", sans-serif;
     display: flex;
     flex-direction: column;
@@ -24,17 +24,14 @@ body {
         "footer footer footer"; }
 
         .header {
-            border-bottom: 4px double #4f25b7;
+            border-bottom: 4px double #03553D;
             font-style: italic;
-            font-size: 2.5rem;
+            font-size: 30px;
             text-align: center;
             margin-top: 0;
-            margin-bottom: 0px;
+            margin-bottom: 10px;
             text-transform: uppercase;
             color: #fff;
-            background-image: url(../img/img.webp);
-            background-size: cover;
-            background-position: center;
             text-shadow: -2px 2px 5px rgba(0, 0, 0, 0.5);
             padding: 20px;
         }
@@ -63,7 +60,7 @@ nav ul {
 
 nav ul ul {
     background-color: #ffffff;
-    box-shadow: 8px 8px #82a6ea;
+    box-shadow: 8px 8px #F5EEDE;
     flex-direction: column;
     position: absolute;
     visibility: hidden;
@@ -89,7 +86,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color:  #82a6ea;
+    background-color: #96A37D;
     color: azure;
 }
 
@@ -125,9 +122,9 @@ h2 {
   }
   
   .image {
-    width: 200px; /* Adjust as needed */
-    height: auto; /* Keeps aspect ratio */
-    margin: 0 10px; /* Adjust margin as needed */
+    width: 200px; 
+    height: auto; 
+    margin: 0 10px; 
   }
 
 .indextext {
@@ -137,7 +134,7 @@ h2 {
 
 .activity {
     display: block;
-    margin-bottom: 20px; /* Adds space between each activity */
+    margin-bottom: 20px; 
 }
 
 .formular {
@@ -151,9 +148,12 @@ h2 {
     width: max-content;
     width: 100%;
     padding: 0.8em;
-    background-color:  #82a6ea;
+    background-color:  #96A37D;
     border: 2px solid #ffffff;
-    border-radius: 20px;
+    border-radius: 10px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+    font-weight: bolder;
     
 }
 
@@ -172,18 +172,13 @@ h2 {
     width: 100%;
 }
 
-.bestdlc {
-    font-size: 19px;
-    font-style: oblique;
-}
-
 li {
     list-style: none;
 }
 
 div img {
     max-width: 100%;
-    max-height: 800px; /* Adjust the value as needed */
+    max-height: 800px;
     width: auto;
     height: auto;
     border-radius: 5px;
@@ -197,9 +192,7 @@ footer {
     grid-area: footer;
 }
 
-.perktext {
-    grid-area: text;
-}
+
 
 .index {
     grid-area: text;
@@ -226,9 +219,7 @@ footer {
             "text img"
             "footer footer"
     }
-    .dlcbild {
-        width: 600px;
-    }
+   
 }
 
 
@@ -244,9 +235,7 @@ footer {
             "text img"
             "footer footer"
     }
-    .dlcbild {
-        width: 600px;
-    }
+   
 }
 
 @media screen and (max-width: 620px) {
@@ -261,9 +250,7 @@ footer {
             "text img"
             "footer footer"
     }
-    .dlcbild {
-        width: 400px;
-    }
+   
 }
 
 
@@ -280,9 +267,7 @@ footer {
             "footer";
     }
 
-    .perk-wrapper {
-        flex-direction: column;
-    }
+   
 
     nav ul {
         flex-direction: column;
@@ -293,7 +278,5 @@ footer {
         width: min-content;
     }
 
-    .dlcbild {
-        width: 350px;
-    }
+    
 }
